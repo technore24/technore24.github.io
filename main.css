@@ -150,7 +150,7 @@ a {
 }
 
 .contact ul,
-.hero,
+.mainc,
 footer,
 header,
 nav,
@@ -169,32 +169,32 @@ nav li {
 	margin: 0 .5em
 }
 
-.hero {
+.mainc {
 	justify-content: space-between;
 	margin-top: 6em;
 	margin-left: 0.3em;
 	margin-right: 0.3em
 }
 
-.hero h1 {
+.mainc h1 {
 	display: flex;
 	flex-basis: 50%;
 	flex-direction: column
 }
 
-.hero-name {
+.mainc-name {
 	color: var(--primary)
 }
 
-.hero-about {
+.mainc-about {
 	flex-basis: 40%
 }
 
-.hero-about p {
+.mainc-about p {
 	font-size: 1.1rem
 }
 
-.hero-about .btn {
+.mainc-about .btn {
 	margin-top: 2.2em
 }
 
@@ -331,7 +331,7 @@ section {
 }
 
 .contact .icon,
-.hero .icon {
+.mainc .icon {
 	margin-right: .2em
 }
 
@@ -397,19 +397,19 @@ footer small {
 		margin: .5em 0
 	}
 
-	.hero,
-	.hero-about,
+	.mainc,
+	.mainc-about,
 	section {
 		margin-top: 2.5em
 	}
 
-	.hero {
+	.mainc {
 		flex-direction: column;
 		padding-bottom: 1em
 	}
 
-	.hero-about,
-	.hero h1 {
+	.mainc-about,
+	.mainc h1 {
 		width: 100%
 	}
 
